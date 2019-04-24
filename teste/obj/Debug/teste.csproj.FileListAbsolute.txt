@@ -1,0 +1,4 @@
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\teste\bin\Debug\teste.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\teste\bin\Debug\teste.pdb
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\teste\obj\Debug\teste.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\teste\obj\Debug\teste.pdb

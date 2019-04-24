@@ -1,0 +1,37 @@
+﻿@model List<Model.Entity.DetalheVenda>
+@{
+    ViewBag.Title = "Index";
+}
+
+<table class="table">
+    <thead>
+        <tr class="bg-primary">
+            <th>Id Detalhe</th>
+            <th>Numero Fatura</th>
+            <th>Id Venda</th>
+            <th>Sub Total</th>
+            <th>Id Produto</th>
+            <th>Desconto</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var objDetalheVenda in Model)
+        {
+            <tr>
+                <td>@objDetalheVenda.IdDetalheVenda</td>
+                <td>@objDetalheVenda.NumFatura</td>
+                <td>@objDetalheVenda.IdVenda</td>
+                <td>@objDetalheVenda.SubTotal</td>
+                <td>@objDetalheVenda.IdProduto</td>
+                <td>@objDetalheVenda.Desconto</td>
+                <td>@objDetalheVenda.Quantidade</td>
+
+                <td><a class="btn btn-danger" href="~/DetalheVenda/Eliminar?idVenda=@objDetalheVenda.IdVenda&idFatura=@objDetalheVenda.NumFatura"><span class="glyphicon glyphicon-remove">| Excluir</span></a></td>
+                
+            </tr>
+        }
+        
+    </tbody>
+</table>
+

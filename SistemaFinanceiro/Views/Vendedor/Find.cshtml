@@ -1,0 +1,33 @@
+﻿@model Model.Entity.Vendedor
+@{
+    ViewBag.Title = Model.Nome;
+}
+
+<ol class="breadcrumb">
+    <li><a href="~/">Vendedor</a></li>
+    <li class="active">@(Model.Nome)</li>
+
+</ol>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Informação Pessoal</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>Código</dt>
+            <dd>@Model.IdVendedor</dd>
+
+            <dt>Nome</dt>
+            <dd>@Model.Nome</dd>
+
+            
+            <dt>CPF</dt>
+            <dd>@Model.Cpf</dd>
+
+            <dt>Telefone</dt>
+            <dd>@Model.Telefone</dd>
+        </dl>
+    </div>
+    <div class="form-actions">
+        |@Html.ActionLink("Voltar a Lista", "Index")
+    </div>
+</div>

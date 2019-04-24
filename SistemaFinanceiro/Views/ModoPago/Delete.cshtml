@@ -1,0 +1,46 @@
+﻿
+@model Model.Entity.ModoPago
+@{
+    ViewBag.Title = "Formulário Excluir";
+}
+<div class="well well-sm text-primary text-center">
+    @ViewBag.MensagemInicialEliminar
+</div>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <fieldset>
+            <div class="form-group">
+                @Html.LabelFor(model => model.NumPago, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-2">
+                    @Html.EditorFor(model => model.NumPago, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Outros, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Outros, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="form-actions col-md-offset-2">
+                <input class="btn btn-primary" type="submit" name="btnguardar" value="Excluir" />|
+                @Html.ActionLink("Voltar a Lista", "Index")
+            </div>
+        </fieldset>
+    </div>
+
+}
+
+<div class="text-primary text-success text-center">
+    @ViewBag.MensagemExito;
+</div>
+<div class="text-primary text-danger text-center">
+    @ViewBag.MensagemErro;
+</div>

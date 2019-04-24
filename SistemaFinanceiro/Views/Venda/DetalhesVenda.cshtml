@@ -1,0 +1,41 @@
+﻿
+
+@model List<Model.Entity.DetalheVenda>
+
+@{
+    ViewBag.Title = "Vendas";
+}
+<h2>Detalhe das Vendas</h2>
+
+<table class="table">
+    <thead>
+        <tr class="bg-primary">
+            <th>Id Detalhe</th>
+            <th>Num Fatura</th>
+            <th>Id Venda</th>
+            <th>SubTotal</th>
+            <th>Id Produto</th>
+            <th>Desconto</th>
+            <th>Quantidade</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var objVenda in Model)
+            {
+            <tr>
+                <td>@objVenda.IdDetalheVenda</td>
+                <td>@objVenda.NumFatura</td>
+                <td>@objVenda.IdVenda</td>
+                <td>@objVenda.SubTotal</td>
+                <td>@objVenda.IdProduto</td>
+                <td>@objVenda.Desconto</td>
+                <td>@objVenda.Quantidade</td>
+
+                <td><a class="btn btn-success" href=""><span class="glyphicon glyphicon-eye-open"></span>|Imprimir Fatura</a></td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>

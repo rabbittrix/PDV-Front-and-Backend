@@ -1,0 +1,158 @@
+﻿
+@model List<Model.Entity.Venda>
+
+@{
+    ViewBag.Title = "Index";
+
+
+}
+<style type="text/css">
+    .panel .panel-heading a {
+        color: white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <a href="~/Cliente/BuscarClientes">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-users fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge">Clientes</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Cliente/BuscarClientes">
+                <div class="panel-footer">
+                    <span class="pull-left">Clientes</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <a href="~/Produto/BuscarProdutos">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-tv fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge">Produtos</div>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <a href="~/Produto/BuscarProdutos">
+                <div class="panel-footer">
+                    <span class="pull-left">Relatório de Produtos</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <a href="~/Venda/NovaVenda">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-shopping-cart fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge">Vendas</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Venda/RelatorioVendas">
+                <div class="panel-footer">
+                    <span class="pull-left">Relatório de Vendas</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <a href="~/Vendedor/Index">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <i class="fa fa-users fa-5x"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="huge">Vendedores</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="~/Vendedor/Index">
+                <div class="panel-footer">
+                    <span class="pull-left">Lista de Vendedores</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+@{
+    ViewBag.Title = "Sistema Financeiro";
+}
+<h2>Vendas Recentes</h2>
+
+<table class="table">
+    <thead>
+        <tr class="bg-primary">
+            <th>Id Venda</th>
+            <th>Cliente</th>
+            <th>Data</th>
+            <th>Vendedor</th>
+            <th>Taxa</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var objVenda in Model)
+            {
+            <tr>
+                <td>@objVenda.IdVenda</td>
+                <td>@objVenda.IdCliente</td>
+                <td>@objVenda.Data</td>
+                <td>@objVenda.IdVendedor</td>
+                <td>@objVenda.Taxa</td>
+                <td>@objVenda.Total</td>
+
+                <td><a class="btn btn-success" href="~/Venda/DetalhesVenda/@objVenda.IdVenda"><span class="glyphicon glyphicon-eye-open"></span>|Ver Detalhes</a></td>
+                <td><a class="btn btn-info" href="~/Cliente/Update/@objVenda.IdVenda"><span class="fa fa-edit"></span>|Editar</a></td>
+                <td><a class="btn btn-danger" href="~/Cliente/Eliminar/@objVenda.IdVenda"><span class="glyphicon glyphicon-remove">|Excluir</span></a></td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
+
+
+

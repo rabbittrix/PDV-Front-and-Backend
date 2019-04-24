@@ -1,0 +1,277 @@
+﻿@using Model.Entity
+@model List<Produto>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Js/alertify.min.js"></script>
+<link href="~/Css/alertify.core.css" rel="stylesheet" />
+<link href="~/Css/alertify.default.css" rel="stylesheet" />
+@*<meta http-equiv="refresh" content="6">*@
+
+
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+        
+        $("a[rel='pop-up']").click(function () {
+            var caracteristicas = "height=550,width=1000,scrollTo,resizable=1,scrollbars=1,location=0";
+            nueva = window.open(this.href, 'popup', caracteristicas);            
+
+            
+            return false; 
+        });
+        //botoes
+        $("#finalizar").click(function () {
+           
+            var i = 0;
+            var envio = "{Data:'" + $("#id_data").val() + "',ModoPago:'" + $("#modoPago").val() + "',IdCliente:'" + $("#codigoCliente").val() + "',IdCabecalho:'2',Total:'" + $('#TotalaPagar').val() + "',";
+            $("#detalhe tbody tr").each(function (index) {
+                if (i === 0) {
+                    envio += "ListaDetalhe:[{IdProduto:'" + $(this).find('td').eq(0).text() +
+                        "',Quantidade:'" + $(this).find('td').eq(2).text() +
+                        "',Desconto:'" + $(this).find('td').eq(4).text() +
+                        "',SubTotal:'" + $(this).find('td').eq(5).text() + "'}";
+                } else {
+                    envio += ",{IdProduto:'" + $(this).find('td').eq(0).text() +
+                        "',Quantidade:'" + $(this).find('td').eq(2).text() +
+                        "',Desconto:'" + $(this).find('td').eq(4).text() +
+                        "',SubTotal:'" + $(this).find('td').eq(5).text() + "'}";
+                }
+                i = 1;
+            });
+            envio += "]}";
+            
+            var json = eval("(" + envio + ')');
+
+            //alertify.alert("INSERIR DADOS");
+            console.info(json);
+            
+            $.ajax({
+                url: "SalvarVenda",
+                data: JSON.stringify(json),
+                type: "POST",
+                async: false,//this makes the ajax-call blocking
+                contentType: 'application/json;charset=UTF-8',
+                dataType: 'json',
+                success: function (response) {                  
+                    alertify.alert(response);                    
+                    valid = response.valid;
+                },
+                error: function (error) {
+                    alertify.alert(error);
+                    
+                }
+            }); 
+        });
+        
+    });
+    //variables
+    var total=0;
+    var valor=0;
+    var subtotal=0;
+    function obterCliente(Cliente) {
+
+        var watchclose = setInterval(function () {
+            $("#txtnome").val(Cliente.DadosPessoais);
+            $("#idCliente").val(Cliente.Identificacao);
+            $("#codigoCliente").val(Cliente.Codigo);
+
+        });
+    }
+    
+    function fn_adicionar() {
+        
+        cadeia="<tr>"
+        cadeia=cadeia+"<td>"+$("#idproduto").val()+"</td>";
+        cadeia=cadeia+"<td>"+$("#nomeproduto").val()+"</td>";
+        cadeia=cadeia+"<td>"+$("#quantidade").val()+"</td>";
+        cadeia = cadeia + "<td>" + $("#preco").val() + "</td>";
+        cadeia = cadeia + "<td>" + $("#desconto").val() + "</td>";
+
+        var y = 0;
+        var x = 0;
+        var des = 0;
+        y = $("#quantidade").val();
+        x = $("#preco").val();
+        des = $("#desconto").val();
+        subtotal=(x*y)-des;
+        cadeia = cadeia + "<td>" + subtotal + "</td>"
+        cadeia=cadeia+"<td><a class ='elimina'><button class='btn btn-danger' type='button'><span class='fa fa-remove'></span></button></a></td>";
+        $("#detalhe tbody").append(cadeia);
+        somar();
+        fn_dar_eliminar();
+        limparCliente();
+        limpar();
+    };
+    function limpar() {
+        $("#nomeproduto").val("");
+        $("#idproduto").val("");
+        $("#preco").val(""); 
+        $("#ListaProduto").val("");
+        $("#quantidade").val("");
+        $("#desconto").val("");
+    }
+    function limparCliente() {
+        $("tbody tr #txtnome").val('');
+        $("tbody tr #idCliente").val('');
+        $("tbody tr #codigoCliente").val('');
+    }
+    function limparDetalhe() {
+        $("#detalhe tbody tr").val("");
+    }
+    function somar() {
+        total=total+subtotal;
+        console.info(total);
+        $("#TotalaPagar").val(total);
+
+    }
+    function restar() {
+        total=total-valor;
+        $("#TotalaPagar").val(total);
+    }
+    function fn_dar_eliminar(){
+        $("a.elimina").click(function () {
+            valor = $(this).parents("tr").find("td").eq(5).html();
+
+            $(this).parents("tr").fadeOut("normal",function(){
+                $(this).remove();
+                restar();
+            });
+        });
+    };
+
+
+</script>
+
+<a style="float:right;" class="btn btn-success" href="~/Venda/DetalhesVenda" target="_blank">Detalhes da Venda</a>
+
+<a style="float:right;" class="btn btn-success" href="~/Venda/VendaFatura" target="_blank">Mais Faturas</a>
+    
+<a style="float:right;" class="btn btn-success" href="~/Venda/relatorioAtual" target="_blank">Imprimir Fatura</a>
+    
+<table id="cabecalho" class="table">
+    <thead>
+        <tr style="font-size:20px;">
+            <th>Id Venda <input style="color:red; font-size:12px;" class="form-control" type="text" id="id_venda" readonly /></th>
+            <th>
+                Data
+                <input style="color:red;font-size:20px;" class="form-control" type="text" id="id_data" readonly value="@DateTime.Now.Day-@DateTime.Now.Month-@DateTime.Now.Year @DateTime.Now.Hour:@DateTime.Now.Minute:@DateTime.Now.Second" />
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="font-size:20px;">
+            <td>
+                Detalhes do Cliente
+                <a href="~/Venda/ObterClientes" rel="pop-up">
+                    <input class="btn btn-warning btn-lg col-md-12" type="button" name="link_cliente" value="Obter Cliente" />
+                </a>
+            </td>
+            <td>
+                Modo de PGTO
+                <div class="col-md-12 dropdown">
+                    @Html.DropDownList("modoPago", ViewBag.ListaModoPago as SelectList, "Selecione Pagamento", htmlAttributes: new { @class = "form-control", @required = "required" })
+                </div>
+            </td>
+        </tr>
+        <tr style="font-size:20px;">
+
+            <td>Nome Cliente <input style="font-size:20px; font-weight:700;" class="form-control" type="text" id="txtnome" readonly required /></td>
+            <td>
+                CPF
+                <input type="hidden" id="codigoCliente">
+                <input style="font-size:20px; font-weight:700;" class="form-control" type="text" id="idCliente" readonly required />               
+            </td>
+        </tr>
+        <tr style="font-size:20px;">
+            <td style="float:right; vertical-align:middle;">Detalhes do Produto</td>
+            <td>
+              
+
+                <div class="form-group col-md-12">
+                    <div class="col-md-9 dropdown">
+                        @Html.DropDownList("ListaProduto", ViewBag.ListaProduto as SelectList, "Selecione um Produto", htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-warning btn-lg" name="btnprodutos" id="btnprodutos">Selecionar</button>
+                    </div>
+                </div>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<form action="javascript:fn_adicionar()" ; method="post" id="frm_usu" class="form-horizontal">
+    <table class="table">
+        <tr style="font-size:20px;">
+            <td>Nome do Produto <input style="font-size:20px; font-weight:700;" class="form-control" type="text" id="nomeproduto" readonly required /></td>
+            <td>Id <input style="font-size:20px; font-weight:700;" type="text" id="idproduto" class="form-control" readonly required /></td>
+            <td>Preço <input style="font-size:20px; font-weight:700;" type="text" id="preco" class="form-control" readonly required /></td>
+            <td>Desconto <input style="font-size:20px; font-weight:700;" class="form-control" type="number" id="desconto" value="0" onfocus="this.value = '';" required /></td>
+            <td>Quantidade <input style="font-size:20px; font-weight:700;" class="form-control" type="number" id="quantidade" value="Insira Quantidade" onfocus="this.value = '';" required /></td>
+            <td colspan="2"><input class="btn btn-primary btn-lg" type="submit" name="adicionar" id="adicionar" value="Adicionar" /></td>
+        </tr>
+    </table>
+</form>
+<table id="detalhe" class="lista table" border="1">
+    <thead style="font-size:18px;">
+        <tr class="bg-success">
+            <td>Detalhes da Compra</td>
+        </tr>
+        <tr class="bg-danger">
+            <th>Id</th>
+            <th>Descrição do Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Desconto</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+
+</table>
+<table class="table">
+    <tr>
+        <td style="float:right;font-size:20px;">Total a Pagar</td>
+        <th></th>
+        <td><input style="font-size:20px; font-weight:700;" class="form-control" type="text" name="TotalaPagar" id="TotalaPagar" required readonly /></td>
+    </tr>
+</table>
+<input class="btn btn-success btn-lg" type="button" id="finalizar" value="Salvar Venda" />
+<input class="btn btn-success btn-lg" type="button" id="txtnova" value="Nova Venda" />
+
+
+<script>
+    $(document).ready(function () {
+        $("#txtnova").click(function () {
+            $.ajax({
+                success: function (res) {
+                    //alertify.alert("exito");
+                    window.location.reload().ajax();
+                }
+            });            
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#btnprodutos").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "Selecionar",
+                data: { idProduto: $("#ListaProduto").val() },
+                success: function (mensagem) {
+                   
+                    $(mensagem).each(function (index, item) {
+                        //receber datos json
+                        $("#nomeproduto").val(item.Nome),
+                        $("#idproduto").val(item.IdProduto),
+                        $("#preco").val(item.PrecoUnitario)
+                    });
+                }
+            });
+        });
+    });
+
+</script>

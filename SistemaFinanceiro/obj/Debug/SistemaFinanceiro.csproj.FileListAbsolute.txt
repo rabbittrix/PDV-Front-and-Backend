@@ -1,0 +1,193 @@
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.csprojResolveAssemblyReference.cache
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csc.exe
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\vbc.exe
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\VBCSCompiler.exe
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.dll.config
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.pdb
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Antlr3.Runtime.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.SqlServer.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Google.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Neg.exe
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Newtonsoft.Json.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Owin.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Helpers.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Mvc.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Optimization.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Razor.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Deployment.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Razor.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\WebGrease.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Entity.pdb
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Neg.pdb
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Helpers.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Mvc.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Optimization.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Razor.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Deployment.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Razor.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Antlr3.Runtime.pdb
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Newtonsoft.Json.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.SqlServer.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Google.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.dll
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.pdb
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Dao.exe
+c:\users\hugo\documents\visual studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Dao.pdb
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Entity.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\RdlCompile.cache
+C:\Users\Hugo\Documents\Visual Studio 2015\Projects\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\RdlCompile.compiled
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csc.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.Collections.Immutable.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.Reflection.Metadata.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\vbc.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\VBCSCompiler.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\VBCSCompiler.exe.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.dll.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\SistemaFinanceiro.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Antlr3.Runtime.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.SqlServer.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Google.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Web.Infrastructure.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Dao.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Entity.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Neg.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Newtonsoft.Json.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Owin.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Helpers.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Mvc.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Optimization.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Razor.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Deployment.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Razor.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\WebGrease.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Dao.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Dao.exe.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Entity.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Neg.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Model.Neg.exe.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Helpers.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Mvc.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Optimization.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.Razor.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Deployment.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\System.Web.WebPages.Razor.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Antlr3.Runtime.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Newtonsoft.Json.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\EntityFramework.SqlServer.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Google.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.csprojAssemblyReference.cache
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.csproj.CoreCompileInputs.cache
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.csproj.CopyComplete
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\obj\Debug\SistemaFinanceiro.pdb
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csc.exe.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csc.rsp
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csi.exe
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\csi.rsp
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.AppContext.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.IO.FileSystem.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\vbc.exe.config
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\roslyn\vbc.rsp
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.ReportViewer.Common.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\Microsoft.ReportViewer.WebForms.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.Helpers.resources.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.Mvc.resources.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.Razor.resources.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.WebPages.resources.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\SistemaFinanceiro\Arquivos Sistema Financeiro\Sistema Finalizado com Conexao Local\SistemaFinanceiro\SistemaFinanceiro\bin\pt-br\System.Web.WebPages.Razor.resources.dll

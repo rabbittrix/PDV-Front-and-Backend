@@ -1,0 +1,43 @@
+﻿
+@model List<Model.Entity.Venda>
+
+@{
+    ViewBag.Title = "Vendas";
+}
+<h2>Lista de Vendas</h2>
+
+    <table class="table">
+        <thead>
+            <tr class="bg-primary">
+                <th>Id Venda</th>
+                <th>Cliente</th>
+                <th>Data</th>
+                <th>Vendedor</th>
+                <th>Taxa</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var objVenda in Model)
+            {
+                <tr>
+                    <td>@objVenda.IdVenda</td>
+                    <td>@objVenda.IdCliente</td>
+                    <td>@objVenda.Data</td>
+                    <td>@objVenda.IdVendedor</td>
+                    <td>@objVenda.Taxa</td>
+                    <td>@objVenda.Total</td>
+
+                    <td><a class="btn btn-success" href="~/Venda/DetalhesVenda/@objVenda.IdVenda"><span class="glyphicon glyphicon-eye-open"></span>|Ver Detalhes</a></td>
+                    <td><a class="btn btn-info" href="~/Venda/Update/@objVenda.IdVenda"><span class="fa fa-edit"></span>|Editar</a></td>
+                    <td><a class="btn btn-danger" href="~/Venda/Eliminar/@objVenda.IdVenda"><span class="glyphicon glyphicon-remove">|Excluir</span></a></td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+
+
+
+
+
